@@ -7,8 +7,8 @@ console.log(bar);
 barjs.classList.toggle("bar_click");   
 }
 
-// const onclose = document.querySelector("onclose");
-// onclose.addEventListener("click",abc);
-// function abc() {
-// onclose.classList.toggle("bar_click");
-// }
+const onclose = document.querySelector("onclose");
+onclose.addEventListener("click",abc);
+function abc() {
+onclose.classList.toggle("bar_click");
+}
