@@ -1,5 +1,5 @@
 var bar = document.getElementById("bar");
-let barjs = document.querySelector(".barjs");
+var barjs = document.querySelector(".barjs");
 bar.addEventListener("click",abcd );
 
 function abcd() {
